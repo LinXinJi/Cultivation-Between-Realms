@@ -1,18 +1,15 @@
-# 站点名称
+# 站点信息
 site_name: Cultivation Between Realms
-# site_description: 
+# site_description:
+
+# 仓库信息
+repo_name: Cultivation-Between-Realms
+repo_url: https://github.com/LinXinJi/Cultivation-Between-Realms
 
 # 主题
 theme:
   name: material
   language: zh
-
-  font:
-    text: 
-      - "JetBrains Mono"        # 英文字体
-      - "KaiTi"                 # 中文字体
-    code: 
-      - "Maple Mono NF"         # 代码字体
 
   palette:
     # 浅色模式
