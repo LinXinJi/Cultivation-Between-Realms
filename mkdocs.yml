@@ -1,11 +1,15 @@
 # 站点信息
 site_name: Cultivation Between Realms
-# site_description:
+site_url: https://linxinji.github.io/Cultivation-Between-Realms/
+site_dir: site
+site_author: LinXinJi
+site_description: A blog about cultivation, technology, and life.
 
 # 仓库信息
 repo_name: Cultivation-Between-Realms
 repo_url: https://github.com/LinXinJi/Cultivation-Between-Realms
 
+# 版权信息
 copyright: Copyright &copy; 2026-2030 LinXinJi
 
 # 主题
