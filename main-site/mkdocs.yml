@@ -1,1 +1,6 @@
+# 站点名称
 site_name: My Docs
+# 主题
+theme:
+  name: material
+  
