@@ -8,7 +8,10 @@ on:
     branches: ["main"]  # 重点：如果你的仓库默认分支是 master，改成 master
   # 2. 允许在 GitHub Actions 面板手动触发部署
   workflow_dispatch:
-
+  # 新增：监听来自 ci.yml 的触发事件
+  repository_dispatch:
+    types: [trigger-static-workflow]
+    
 # 权限配置（GitHub Pages 部署必备）
 permissions:
   contents: read
