@@ -66,7 +66,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # 重点：只上传构建后的 site/ 目录，这是 MkDocs 可直接部署的静态文件
-          path: "./site"
+          path: "./site/"
 
       # 步骤 7：部署到 GitHub Pages（最终步骤）
       - name: Deploy to GitHub Pages
