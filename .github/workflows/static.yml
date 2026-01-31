@@ -58,7 +58,11 @@ jobs:
 
       # 步骤 4：构建 MkDocs 博客，生成 site/ 目录（关键：将源码转为静态文件）
       - name: Build MkDocs site
-        run: mkdocs build  # 执行 mkdocs build 命令，生成可部署的 site/ 目录
+        run: |
+          # 激活虚拟环境
+          source .venv/bin/activate
+          # 执行 mkdocs build 命令，生成可部署的 site/ 目录
+          mkdocs build  
 
       # 步骤 5：配置 GitHub Pages 环境
       - name: Setup GitHub Pages
