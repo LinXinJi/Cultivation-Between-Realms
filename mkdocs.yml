@@ -64,7 +64,7 @@ plugins:
   - search      # 搜索插件
   - social      # 社交插件
   - blog        # 博客插件
-  - rss         # RSS 订阅插件
+  # - rss         # RSS 订阅插件
 
 # 额外的CSS文件
 extra_css:
