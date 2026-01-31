@@ -1,6 +1,59 @@
 # 站点名称
-site_name: My Docs
+site_name: Cultivation Between Realms
+# site_description: 
+
 # 主题
 theme:
   name: material
-  
+  language: zh
+
+  font:
+    text: 
+      - "JetBrains Mono"        # 英文字体
+      - "KaiTi"                 # 中文字体
+    code: 
+      - "Maple Mono NF"         # 代码字体
+
+  palette:
+    # 浅色模式
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    
+    # 深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+  features:
+    - navigation.tabs          # 启用标签页导航
+    - navigation.sections      # 启用目录页导航
+    - navigation.instant       # 启用即时预览
+    - content.code             # 代码高亮
+    - navigation.top           # 导航栏置顶
+    - navigation.sidebar       # 左侧导航：保持默认开启，显示全局导航结构
+    - toc.sidebar              # 右侧目录：启用右侧 TOC 侧边栏
+    - toc.follow               # 让右侧目录跟随页面滚动高亮当前位置
+
+# 导航
+nav:
+  - Home: index.md
+
+# 插件
+plugins: 
+  - search
+
+
+# 额外的CSS文件
+extra_css:
+  - css/fonts.css
+
+# 额外的JS文件
+extra_javascript:
+  - js/extra.js

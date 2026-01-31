@@ -10,3 +10,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs -h` - Print help message and exit.
 
 ## Project layout
+
+```python
+print("Hello, World!")
+```
+
+式的核打击搜集
