@@ -6,10 +6,13 @@ site_name: Cultivation Between Realms
 repo_name: Cultivation-Between-Realms
 repo_url: https://github.com/LinXinJi/Cultivation-Between-Realms
 
+copyright: Copyright &copy; 2026-2030 LinXinJi
+
 # 主题
 theme:
   name: material
   language: zh
+  # logo: 
 
   palette:
     # 浅色模式
@@ -42,10 +45,26 @@ theme:
 nav:
   - Home: index.md
 
+# 
+extra:
+  social: 
+    - icon: fontawesome/brands/github
+      link: https://github.com/LinXinJi/Cultivation-Between-Realms
+    - icon: fontawesome/solid/rss
+      link: https://linxinji.github.io/Cultivation-Between-Realms/atom.xml
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/9b23z6h
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/LinXinJi_
+    - icon: fontawesome/brands/steam
+      link: https://steamcommunity.com/id/LinXinJi/
+
 # 插件
 plugins: 
-  - search
-
+  - search      # 搜索插件
+  - social      # 社交插件
+  - blog        # 博客插件
+  - rss         # RSS 订阅插件
 
 # 额外的CSS文件
 extra_css:
