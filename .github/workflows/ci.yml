@@ -19,14 +19,16 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material
+      - run: pip install uv
+      - run: uv sync
+      - run: source .venv/bin/activate
       - run: mkdocs gh-deploy --force
 
       # 触发 static.yml 的关键步骤
-      - name: Trigger static.yml workflow
-        uses: peter-evans/repository-dispatch@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event-type: trigger-static-workflow
-          repository: ${{ github.repository }}
-          client-payload: '{"ref": "${{ github.ref }}"}'
+      # - name: Trigger static.yml workflow
+      #   uses: peter-evans/repository-dispatch@v3
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     event-type: trigger-static-workflow
+      #     repository: ${{ github.repository }}
+      #     client-payload: '{"ref": "${{ github.ref }}"}'
