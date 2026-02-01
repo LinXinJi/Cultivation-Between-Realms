@@ -49,8 +49,7 @@ theme:
 nav:
   - Home: index.md
   - Blog: 
-    - index: blog/index.md
-    - Hello World: blog/posts/hello-world.md
+    - blog/index.md
   - About: about.md
   - Contact: contact.md
 
