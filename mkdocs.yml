@@ -73,8 +73,12 @@ plugins:
   - social       # 社交插件
   - blog:        # 博客插件
       blog_dir: blog
+      post_dir: "{blog}/posts"
       authors_profiles: true
       authors_profiles_url_format: "author/{slug}/"
+      post_date_format: full
+      post_url_date_format: yyyy/MM/dd
+      post_url_format: "{date}/{slug}"
   - rss:         # RSS 订阅插件
       match_path: blog/posts/.* 
       date_from_meta:
