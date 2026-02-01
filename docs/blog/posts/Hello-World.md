@@ -1,17 +1,23 @@
 ---
+pin: true
 draft: true
 title: Hello World
 date: 2026-02-01
 description: This is the first post on my blog.
 slug: hello-world
+readtime: 1
+
 tags: 
   - hello
   - world
+
 categories: 
   - demo
+
 authors:
   - linxinji
   - squidfunk
+
 links:
   - 林欣稷简介: authors/linxinji.md
   - Material 网站: 
