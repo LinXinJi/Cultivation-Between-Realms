@@ -5,7 +5,7 @@ title: Hello World
 date: 2026-02-01
 description: This is the first post on my blog.
 slug: hello-world
-readtime: 1
+readtime: 10000
 
 tags: 
   - hello
