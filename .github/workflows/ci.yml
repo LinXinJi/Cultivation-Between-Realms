@@ -25,12 +25,3 @@ jobs:
           uv sync
           source .venv/bin/activate
           mkdocs gh-deploy --force
-
-      # 触发 static.yml 的关键步骤
-      # - name: Trigger static.yml workflow
-      #   uses: peter-evans/repository-dispatch@v3
-      #   with:
-      #     token: ${{ secrets.GITHUB_TOKEN }}
-      #     event-type: trigger-static-workflow
-      #     repository: ${{ github.repository }}
-      #     client-payload: '{"ref": "${{ github.ref }}"}'
