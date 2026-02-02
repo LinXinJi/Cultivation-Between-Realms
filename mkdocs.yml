@@ -72,10 +72,6 @@ nav:
     - index.md
   - Blog: 
     - blog/index.md
-  - Code on Farm: 
-    - code-on-farm/
-  - Fly in Air: 
-    - fly-in-air/
   - About: about.md
 
 # 页脚
@@ -108,6 +104,12 @@ plugins:
       authors_profiles: true                               # 启用作者页面
       authors_profiles_url_format: "authors/{slug}"        # 作者页面链接格式
       authors_profiles_name: 作者                          # 作者页面名称  
+  - multirepo:                                            # 多仓库插件
+      repos:
+        - section: Code on Farm
+          import_url: ./code-on-farm
+        - section: Fly in Air
+          import_url: ./fly-in-air
   - rss:                                                   # RSS 订阅插件
       match_path: blog/posts/.* 
       date_from_meta:

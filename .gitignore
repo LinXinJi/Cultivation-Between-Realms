@@ -8,7 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
-.github/
 .vscode/
 .mypy_cache/
 修行之路/
