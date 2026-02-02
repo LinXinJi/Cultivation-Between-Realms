@@ -85,12 +85,6 @@ plugins:
   - offline      # 离线模式插件
   - search       # 搜索插件
   - social       # 社交插件
-  - multirepo:   # 多仓库插件
-      repos:
-        - section: Code on Farm
-          import_url: ./docs/code-on-farm
-        - section: Fly in Air
-          import_url: ./docs/fly-in-air
   - blog:        # 博客插件
       blog_dir: blog                                       # 博客主目录
       post_dir: "{blog}/posts"                             # 文章存放目录
