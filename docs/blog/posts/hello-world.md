@@ -1,6 +1,6 @@
 ---
 pin: true
-draft: true
+draft: false
 title: Hello World
 date: 2026-02-01
 description: This is the first post on my blog.

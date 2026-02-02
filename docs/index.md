@@ -6,6 +6,8 @@ Welcome to the Cultivation Between Realms blog!
 
 Cultivation Between Realms is a game where players explore the world of the Lost Kingdoms, a fantasy setting where the player can create their own kingdoms and colonies. The game is set in a fantasy world where the player can create their own kingdoms and colonies, explore the world, and build their own kingdoms. The game is set in a fantasy world where the player can create their own kingdoms and colonies, explore the world, and build their own kingdoms.
 
+## 切换代码
+
 === "C"
 
     ``` c title="Hello-World.C"
@@ -29,6 +31,9 @@ Cultivation Between Realms is a game where players explore the world of the Lost
       return 0;
     }
     ```
+
+## 特定行高亮
+
 ``` py linenums="1"
 def bubble_sort(items):
     for i in range(len(items)):
@@ -45,16 +50,22 @@ def bubble_sort(items):
                 items[j], items[j + 1] = items[j + 1], items[j]
 ```
 
+## 注脚
+
 HTML 规范由 W3C 维护。
 
 *[HTML]: 超文本标记语言
 *[W3C]: 万维网联盟
+
+## 链接
 
 [Hover me](https://example.com "I'm a tooltip!")
 
 [Hover me][example]
 
 [example]: https://example.com "I'm a tooltip!"
+
+## 名词定义
 
 `Lorem ipsum dolor sit amet`
 
@@ -70,6 +81,8 @@ HTML 规范由 W3C 维护。
     Nam vulputate tincidunt fringilla.
     Nullam dignissim ultrices urna non auctor.
 
+## 任务列表
+
 - [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
 - [ ] Vestibulum convallis sit amet nisi a tincidunt
     * [x] In hac habitasse platea dictumst
@@ -77,6 +90,7 @@ HTML 规范由 W3C 维护。
     * [ ] Praesent sed risus massa
 - [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque
 
+## 网格卡片
 
 <div class="grid cards" markdown>
 
@@ -114,6 +128,8 @@ HTML 规范由 W3C 维护。
 
 </div>
 
+## 格式化
+
 文本可以是 {--删除--}，替换文本 {++添加++}。这也可以组合成 {~~一个~>单个~~} 操作。{==高亮==} 也是可能的 {>>并且可以添加行内评论<<}。
 
 {==
@@ -125,9 +141,11 @@ HTML 规范由 W3C 维护。
 - H~2~O
 - A^T^A
 
+## 键盘
+
 ++ctrl+alt+del++
 
-这个有点意思
+## 列表
 
 === "无序列表"
 
@@ -141,12 +159,15 @@ HTML 规范由 W3C 维护。
     2. Donec vitae suscipit est
     3. Nulla tempor lobortis orci
 
+## 块提示框
 
 !!! note "Phasellus posuere in sem ut cursus"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
     massa, nec semper lorem quam in massa.
+
+## 内联提示框
 
 === "左边"
 
