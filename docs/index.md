@@ -1,6 +1,6 @@
 # Cultivation Between Realms
 
-Welcome to the Cultivation Between Realms blog!
+欢迎来到我的修行道场！
 
 ## What is Cultivation Between Realms?
 

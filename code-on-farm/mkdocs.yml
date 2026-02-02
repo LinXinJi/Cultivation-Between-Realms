@@ -1,18 +1,13 @@
-# 站点信息
-site_name: Cultivation Between Realms
-site_url: https://linxinji.github.io/Cultivation-Between-Realms/
-site_dir: site
-site_author: LinXinJi
-site_description: A blog about cultivation, technology, and life.
+site_name: Code on Farm
+site_description: 编码如耕，向下扎根，遵循天道
+site_url: https://linxinji.github.io/Cultivation-Between-Realms/code-on-farm/
+site_dir: ../site/code-on-farm
 
 # 仓库信息
 repo_name: Cultivation-Between-Realms
 repo_url: https://github.com/LinXinJi/Cultivation-Between-Realms
 
-# 版权信息
-copyright: Copyright  &copy;  2026-2030  LinXinJi
-
-# 主题
+# 主题配置 - 农场主题色（绿色）
 theme:
   name: material
   language: zh
@@ -31,23 +26,19 @@ theme:
       bug: fontawesome/solid/robot
       example: fontawesome/solid/flask
       quote: fontawesome/solid/quote-left
-
   palette:
-    # 浅色模式
     - scheme: default
-      primary: deep purple
-      accent: deep purple
+      primary: green
+      accent: green
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
-    # 深色模式
+        name: 切换到浅色模式
     - scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: light green
+      accent: light green
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
-
+        name: 切换到深色模式
   features:
     - navigation.footer        # 启用页脚导航
     - navigation.tabs          # 启用标签页导航
@@ -72,15 +63,11 @@ nav:
     - index.md
   - Blog: 
     - blog/index.md
-  - Code on Farm: 
-    - code-on-farm/
-  - Fly in Air: 
-    - fly-in-air/
-  - About: about.md
 
 # 页脚
 extra:
   # generator: false
+  homepage: https://linxinji.github.io/Cultivation-Between-Realms/
   social: 
     - icon: fontawesome/brands/github
       link: https://github.com/LinXinJi/Cultivation-Between-Realms

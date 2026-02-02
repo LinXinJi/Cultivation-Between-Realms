@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://linxinji.github.io/Cultivation-Between-Realms/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/index.html</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://linxinji.github.io/Cultivation-Between-Realms/about/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/about.html</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://linxinji.github.io/Cultivation-Between-Realms/contact/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/authors/linxinji.html</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://linxinji.github.io/Cultivation-Between-Realms/authors/linxinji/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/index.html</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
     <url>
-         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/</loc>
-         <lastmod>2026-02-01</lastmod>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/2026/02/01/hello-world.html</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/archive/2026.html</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/category/demo.html</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/authors/linxinji.html</loc>
+         <lastmod>2026-02-02</lastmod>
+    </url>
+    <url>
+         <loc>https://linxinji.github.io/Cultivation-Between-Realms/blog/authors/squidfunk.html</loc>
+         <lastmod>2026-02-02</lastmod>
     </url>
 </urlset>

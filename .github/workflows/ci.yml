@@ -24,4 +24,5 @@ jobs:
           pip install uv
           uv sync
           source .venv/bin/activate
+          source build.sh
           mkdocs gh-deploy --force
