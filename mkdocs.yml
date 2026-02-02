@@ -105,7 +105,6 @@ plugins:
         - section: Fly in Air
           import_url: ./docs/fly-in-air
   - blog:        # 博客插件
-      reading_time: true                                   # 显示阅读时间
       blog_dir: blog                                       # 博客主目录
       post_dir: "{blog}/posts"                             # 文章存放目录
       post_date_format: full                               # 文章显示的日期格式
